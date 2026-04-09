@@ -38,4 +38,4 @@ flutter:
         package: com.chyiiiiiiiiiiiiii.zendesk_messaging
         pluginClass: ZendeskMessagingPlugin
       ios:
-        pluginClass: ZendeskMessagingPlugin
+        pluginClass: SwiftZendeskMessagingPlugin
