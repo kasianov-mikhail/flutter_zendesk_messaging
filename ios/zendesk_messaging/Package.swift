@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "zendesk_messaging",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS("14.0")],
     products: [
         .library(name: "zendesk-messaging", targets: ["zendesk_messaging"])
     ],
@@ -15,8 +15,7 @@ let package = Package(
             name: "zendesk_messaging",
             dependencies: [
                 .product(name: "ZendeskSDKMessaging", package: "sdk_messaging_ios")
-            ],
-            path: "Classes"
+            ]
         )
     ]
 )
